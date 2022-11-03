@@ -563,7 +563,7 @@
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = ""
@@ -582,6 +582,10 @@
     # Yandex Metrica
     [params.analytics.yandexMetrica]
       id = ""
+    # Baidu Analytics
+    # 百度统计
+    [params.analytics.baidu]
+      id = "b0a46a3345d11bcc0ff5ac3a178ea845"
 
   # Cookie consent config
   # Cookie 许可配置
